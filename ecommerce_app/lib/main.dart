@@ -12,6 +12,9 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  // * Uncomment this if you need to sign out when switching between Firebase
+  // * projects (e.g. Firebase Local emulator vs real Firebase backend)
+  // await FirebaseAuth.instance.signOut();
   // turn off the # in the URLs on the web
   usePathUrlStrategy();
   // ensure URL changes in the address bar when using push / pushNamed
