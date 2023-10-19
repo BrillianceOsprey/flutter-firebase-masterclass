@@ -7,7 +7,7 @@ part of 'products_search_repository.dart';
 // **************************************************************************
 
 String _$productsSearchRepositoryHash() =>
-    r'5754a3bb1da125adfce90d5f7c4b202ec91d3440';
+    r'7c91d9554e046f2bad25ee0a04ace36a1fb97759';
 
 /// See also [productsSearchRepository].
 @ProviderFor(productsSearchRepository)
@@ -24,7 +24,7 @@ final productsSearchRepositoryProvider =
 
 typedef ProductsSearchRepositoryRef = ProviderRef<ProductsSearchRepository>;
 String _$productsListSearchHash() =>
-    r'640f307f87793ce9739a2fa78fcc1e89475a7be9';
+    r'897fadbce044110b2ecc32335d5c9802ecd6f723';
 
 /// Copied from Dart SDK
 class _SystemHash {
